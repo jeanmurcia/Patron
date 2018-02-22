@@ -1,0 +1,96 @@
+h2{
+	text-align: center;
+	color: #FE2E64;
+	font-size: 20px;	
+}
+h1{
+	font-size: 15px;
+	color: #5882FA;
+	font-size: 18px
+}
+}
+html{
+	box-sizing: border-box;
+}
+body{
+	background-color:#5882FA;
+	font-family: monospace;
+	padding: 0;
+	margin: 0;
+}
+img{
+	width:350px;
+  height: 590px;
+  align-items: center;
+}
+form{
+	width: 49%;
+	margin: auto;
+	background: rgba(0,0,0,0.6);
+	padding: 5px 5px;
+	box-sizing: border-box;
+	margin-top:5px;
+	border-radius: 10px;
+
+}
+input{
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 5px;
+	box-sizing: border-box;
+}
+#boton:hover{
+	background: #FE2E64;
+	color: white;
+	cursor: pointer;
+}
+#boton{
+	background: #5882FA;
+}
+.container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  background: :#5882FA;
+  padding: 10px
+}
+.col-1, 
+.col-2, {
+  width: 100%;
+  margin: 2px;
+  border: 1px solid #f2f2f2;
+}
+@media screen and (min-width:320px){
+.col-1{
+	width: 49%;
+	-webkit-order: 2;
+    order: 2;
+}
+.col-2{
+	width: 49%;
+	-webkit-order: 1;
+    order: 1;
+}
+@media screen and (min-width:640px){
+.col-1{
+	width: 49%;
+	-webkit-order: 2;
+    order: 2;
+}
+.col-2{
+	width: 49%;
+	-webkit-order: 1;
+    order: 1;
+}
+@media  screen and (min-width:800px){
+.col-1{
+	width: 49%;
+	-webkit-order: 2;
+    order: 2;
+}
+.col-2 {
+	width: 49%;
+	-webkit-order: 1;
+    order: 1;
+}
